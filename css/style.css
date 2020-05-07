@@ -1,0 +1,58 @@
+
+body {
+    font-family: 'Cairo', sans-serif;
+}
+ul, ol {
+    padding: 0;
+    margin: 0;
+}
+a:hover{
+    text-decoration: none
+}
+.hidden{
+    display: none
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #c9c9c9;
+    background-size: 38%;
+}
+.whatsapp_order{
+    display: inline-block;
+    background: #7fad39;
+    color: #fff;
+    font-weight: bold;
+    padding: 2px 18px 6px 18px;
+    border-radius: 25px;
+    transform: translateY(50%);
+    float: right;
+}
+.whatsapp_order .fa {
+    font-size: 21px;
+    margin-right: 5px;
+    line-height: 35px;
+}
+.card{
+    text-align:center
+}
+.card a{
+    font-size: 20px;
+    color: black
+}
+.card .price{
+    color: #5d8e33
+}
+.card-img-top{
+    width: auto;
+    height: 145px;
+}
+.footer{
+    background: #f5f5f5
+}
+@media (min-width: 992px) {
+    body {
+        
+    }
+}
